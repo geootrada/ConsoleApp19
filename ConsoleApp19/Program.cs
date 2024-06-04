@@ -27,7 +27,9 @@ namespace ConsoleApp19
                     break;
                 }
                 else
+                {
                     Console.WriteLine("Вы ввели неверный пароль.\nУ вас осталось попыток "+ (numberAttempts - (i+1)));
+                }
             }
         }
     }
